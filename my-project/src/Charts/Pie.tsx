@@ -34,7 +34,7 @@ export const data = {
 const ChartOfPie = () => {
   return (
     <div className="max-w-sm border-2 py-5 px-3 rounded-sm shadow ">
-      <Pie data={data} updateMode="resize" />
+      <Pie data={data} redraw={true} updateMode="active" />
     </div>
   );
 };
